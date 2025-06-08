@@ -44,7 +44,7 @@ struct Parameters
 
 /**
  * @brief 大疆电机的基类
- *-
+ *
  * @tparam N 电机总数
  */
 template <uint8_t N> class DjiMotorBase : public MotorBase<N>
