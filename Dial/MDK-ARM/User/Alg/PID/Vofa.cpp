@@ -1,11 +1,11 @@
-#include "User/HAL/CAN/impl/can_device_impl.hpp"
-#include "User/APP/CallBack/callback.cpp"
-#include "User/HAL/CAN/impl/can_bus_impl.hpp"
+#include "../User/HAL/CAN/impl/can_device_impl.hpp"
+#include "../User/APP/CallBack/callback.cpp"
+#include "../User/HAL/CAN/impl/can_bus_impl.hpp"
 
 
 #include "HAL/UART/uart_hal.hpp"
 #include "HAL/CAN/can_hal.hpp"
-#include "User/BSP/Motor/Dji/DjiMotor.hpp"
+#include "../User/BSP/Motor/Dji/DjiMotor.hpp"
 
 bool can_send_enable = false; // button控制CAN发送开关
 float target_frequency = 0.0f; // frequency控制目标转速

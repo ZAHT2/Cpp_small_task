@@ -1,0 +1,9 @@
+build/
+MDK-ARM/dev-Fang/
+MDK-ARM/EIDE/
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvguix.*
+.vs/
+.vscode/
+CppProperties.json
+*.o
