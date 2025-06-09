@@ -166,7 +166,7 @@
   "targets": {
     "Dial": {
       "excludeList": [],
-      "toolchain": "AC5",
+      "toolchain": "AC6",
       "compileConfig": {
         "cpuType": "Cortex-M4",
         "floatingPointHardware": "single",
@@ -267,7 +267,8 @@
           "beforeBuildTasks": [],
           "afterBuildTasks": [],
           "global": {
-            "output-debug-info": "enable"
+            "output-debug-info": "enable",
+            "big-endian": true
           },
           "c/cpp-compiler": {
             "optimization": "level-0",
